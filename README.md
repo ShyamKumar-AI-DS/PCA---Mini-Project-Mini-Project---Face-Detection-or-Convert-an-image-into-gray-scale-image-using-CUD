@@ -21,10 +21,10 @@ The aim of this project is to demonstrate how to convert an image to grayscale u
 
 ### Program:
 
-Name   : Shyam Kumar A
-Reg No : 212221230098
+#### Name   : Shyam Kumar A
+#### Reg No : 212221230098
 
-
+```
 #include <stdio.h>
 #include <string>
 #include <math.h>
@@ -136,7 +136,7 @@ void outputImage(const std::string& output_file, unsigned char* grey_image, int 
 	cv::imwrite(output_file.c_str(), greyData);
 }
 
-
+```
 
 ### OUTPUT:
 ![image](https://github.com/Aswini-J/PCA---Mini-Project-Mini-Project---Face-Detection-or-Convert-an-image-into-gray-scale-image-using-CUD/assets/94748389/bc49d898-8e27-4463-b030-3a53f5ec061c)
